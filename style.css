@@ -8,6 +8,27 @@ color :rgb(201, 49, 49)
  h1:hover{
     color: darkorange;
  }
- h1:focus{
-    color: darkorange;
- }
+ input:checked {
+    transform: scale(1.6);
+  }
+h1{
+   text-align: center;
+   font-size: 50px;
+}
+.pic {
+   align-items:center;
+}
+#picture{
+   background-color:rgb(225, 174, 238);
+}
+h1{
+   background-color:yellowgreen;
+   border-radius: 20px;
+   color: black;
+   margin-bottom: 5px;
+}
+#picture{
+   align-self: center;
+}
+
+   
