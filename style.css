@@ -3,7 +3,7 @@ h1{
 }
 
  a[href*= 'abhineet_baghel']{
-color :rgb(201, 49, 49)
+color :rgb(255, 255, 255)
 }
  h1:hover{
     color: darkorange;
@@ -27,8 +27,30 @@ h1{
    color: black;
    margin-bottom: 5px;
 }
-#picture{
-   align-self: center;
+.picture{
+   display: flex;
+   flex-direction: column;
+background-color:#db4e6a;
 }
 
+.picture--center {
+   align-items: center;
+}
    
+span.img-rick{
+   font-size: 30px;
+   border: 3px solid rgb(214, 238, 80);
+   margin-bottom: 5px;
+}
+.img-rick{
+   align-self: center;
+}
+.twitter-img:hover{
+   color: teal;
+   transform: scale(.3);
+}
+.socialstags:hover{
+   font-size: 20px;
+  color: purple;
+ 
+}
