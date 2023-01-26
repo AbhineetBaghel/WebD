@@ -1,0 +1,13 @@
+h1{
+    color: #107442bd;
+}
+
+ a[href*= 'abhineet_baghel']{
+color :rgb(201, 49, 49)
+}
+ h1:hover{
+    color: darkorange;
+ }
+ h1:focus{
+    color: darkorange;
+ }
