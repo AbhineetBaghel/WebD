@@ -31,6 +31,9 @@ h1{
    display: flex;
    flex-direction: column;
 background-color:#db4e6a;
+background-image: url(./pexels-ksenia-chernaya-5691695.jpg);
+background-repeat: no-repeat;
+  background-size: 1500px 1500px;
 }
 
 .picture--center {
@@ -41,6 +44,7 @@ span.img-rick{
    font-size: 30px;
    border: 3px solid rgb(214, 238, 80);
    margin-bottom: 5px;
+   color: coral;
 }
 .img-rick{
    align-self: center;
@@ -50,7 +54,11 @@ span.img-rick{
    transform: scale(.3);
 }
 .socialstags:hover{
-   font-size: 20px;
-  color: purple;
- 
+   font-size: 20px; 
+}
+.date{
+   color: white;
+}
+.socialstags{
+   color: white;
 }
