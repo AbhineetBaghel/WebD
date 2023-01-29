@@ -1,5 +1,5 @@
 h1{
-    color: #107442bd;
+    color: #b048cabd;
 }
 
  a[href*= 'abhineet_baghel']{
@@ -22,10 +22,12 @@ h1{
    background-color:rgb(225, 174, 238);
 }
 h1{
-   background-color:yellowgreen;
+   background-color:rgb(205, 50, 135);
    border-radius: 20px;
    color: black;
-   margin-bottom: 5px;
+   margin-bottom: 50px;
+   margin-top: 0px;
+   padding-bottom: 20px;
 }
 .picture{
    display: flex;
@@ -47,7 +49,8 @@ span.img-rick{
    color: coral;
 }
 .img-rick{
-   align-self: center;
+   align-items: right;
+   size: 500px 100px;
 }
 .twitter-img:hover{
    color: teal;
